@@ -149,4 +149,4 @@ htop
 
 ## 5. Краткое техническое описание с пояснением архитектуры решения
 
-- Находится в файле `mlabteam_description.pdf`
+- Находится в файле [`mlabteam_description.pdf`](https://github.com/mlabteam/mlabteam-forest/blob/main/mlabteam_description.pdf)
