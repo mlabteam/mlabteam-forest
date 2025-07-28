@@ -39,7 +39,7 @@
      ```
    **Важно:** *Не используйте `sudo` при запуске этих скриптов.*
 
-3. Скачайте файлы ***multi_vehicle.launch***, ***forest_3.world*** и переместите их с заменой в следующие директории:
+3. Скачайте файлы `multi_vehicle.launch`, `forest_3.world` и переместите их с заменой в следующие директории:
    ```bash
    mv multi_vehicle.launch ~/Px4_firmware/launch
    mv forest_3.world ~/Px4_firmware/Tools/sitl_gazebo/world
@@ -53,7 +53,7 @@
    catkin_make
    ```
 
-5. Скачайте файлы ***swarm_gazebo***, ***takeoff.sh*** и переместите их с заменой в следующие директории:
+5. Скачайте файлы `swarm_gazebo`, `takeoff.sh` и переместите их с заменой в следующие директории:
    ```bash
    mv swarm_gazebo.launch ~/Fast-Drone-250-v2/src/planner/plan_manage/launch
    mv takeoff.sh ~/Fast-Drone-250-v2/src/realflight_modules/px4ctrl/launch
