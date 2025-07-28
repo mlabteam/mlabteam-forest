@@ -19,7 +19,7 @@
 
 ## 3. Алгоритм установки
 
-1. Скачайте папку `XTDRone_Installer_13_3.1` и переместите её в домашнюю директорию:
+1. Скачайте файл [`XTDRone_Installer_13_3.1.zip`](https://disk.yandex.ru/d/Jgix8lvp-Q6Ufg), распакуйте его и переместите в домашнюю директорию:
    ```bash
    mv XTDRone_Installer_13_3.1 ~/XTDRone_Installer_13_3.1
    ```
