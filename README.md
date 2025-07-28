@@ -68,77 +68,77 @@
 
 ## 4. Алгоритм запуска
 
-1. Откройте **Terminator** и разделите его рабочую зону на 10 терминалов так, как показано на картинке:
+### 1. Откройте **Terminator** и разделите его рабочую зону на 10 терминалов так, как показано на картинке:
    
 ![](mlabteam-forest_terminator.jpeg)
 
-2. Выполните следующие команды:
+### 2. Выполните следующие команды:
 
-### Терминал 1:
+#### Терминал 1:
 ```bash
 cd ~
 source devel/setup.bash
 roslaunch px4 multi_vehicle.launch
 ```
 
-### Терминал 2:
+#### Терминал 2:
 ```bash
 cd ~/XTDrone/communication
 python3 multirotor_communication.py iris 0
 ```
 
-### Терминал 3:
+#### Терминал 3:
 ```bash
 cd ~/XTDrone/communication
 python3 multirotor_communication.py iris 1
 ```
 
-### Терминал 4:
+#### Терминал 4:
 ```bash
 cd ~/XTDrone/communication
 python3 multirotor_communication.py iris 2
 ```
 
-### Терминал 5:
+#### Терминал 5:
 ```bash
 cd ~/XTDrone/sensing/pose_ground_truth/
 python3 get_local_pose.py iris 1
 ```
 
-### Терминал 6:
+#### Терминал 6:
 ```bash
 cd ~/XTDrone/sensing/pose_ground_truth/
 python3 get_local_pose.py iris 2
 ```
 
-### Терминал 7:
+#### Терминал 7:
 ```bash
 cd ~/XTDrone/sensing/pose_ground_truth/
 python3 get_local_pose.py iris 3
 ```
 
-### Терминал 8:
+#### Терминал 8:
 ```bash
 cd ~
 source devel/setup.bash
 roslaunch ego_planner swarm_gazebo.launch
 ```
 
-### Терминал 9:
+#### Терминал 9:
 ```bash
 cd ~
 source devel/setup.bash
 roslaunch ego_planner rviz.launch
 ```
 
-### Терминал 10:
+#### Терминал 10:
 ```bash
 cd ~
 source devel/setup.bash
 roslaunch px4ctrl multi_ctrl.launch
 ```
 
-### Терминал 11:
+#### Терминал 11:
 Можете использовать данный терминал для контроля нагрузки на систему:
 ```bash
 cd ~
