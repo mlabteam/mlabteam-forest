@@ -6,7 +6,7 @@
 
 ## 1. Используемые в проекте репозитории
 
-- [Fast-Drone-250-v2](https://github.com/ZJU-FAST-Lab/Fast-Drone-250-v2)
+- [Fast-Drone-250-v2](https://github.com/XXLiu-HNU/Fast-Drone-250-v2)
 
 ## 2. Используемое в проекте оборудование
 
